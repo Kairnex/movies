@@ -334,7 +334,7 @@ async def start(client:Client, message):
                 file_caption=file.caption
             )
             btn = [[
-                InlineKeyboardButton("ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ", url=f"https://t,me/allmoviezonez"')
+                InlineKeyboardButton("ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ", url=f"https://t,me/allmoviezonez")
             ]]
             toDel = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -374,7 +374,7 @@ async def start(client:Client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ", url=f"https://t,me/allmoviezonez"')
+        InlineKeyboardButton("ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ", url=f"https://t,me/allmoviezonez")
     ]]
     toDel=await client.send_cached_media(
         chat_id=message.from_user.id,
